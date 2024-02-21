@@ -1132,7 +1132,7 @@ System::Void houses::MyForm1::button1_Click_1(System::Object^ sender, System::Ev
 
 		Controls["label" + Convert::ToString(indexes[i] * 2 + 1)]->Text = data_label;
 		Controls["label" + Convert::ToString((indexes[i] + 1) * 2)]->Text = price_label;
-		//changePicturePos(i+2, indexes[i]+2);
+		//changePicturePos(i+1, indexes[i]+1);
 	}
 
 	// Очистка чекбоксов
